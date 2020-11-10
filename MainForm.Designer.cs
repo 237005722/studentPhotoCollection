@@ -576,6 +576,7 @@
             this.textBox_photoFileSavePath.Name = "textBox_photoFileSavePath";
             this.textBox_photoFileSavePath.Size = new System.Drawing.Size(202, 30);
             this.textBox_photoFileSavePath.TabIndex = 16;
+            this.textBox_photoFileSavePath.Text = "C:\\Users\\Administrator\\Desktop";
             this.textBox_photoFileSavePath.Click += new System.EventHandler(this.TextBox_photoFileSavePath_Click);
             this.textBox_photoFileSavePath.TextChanged += new System.EventHandler(this.TextBox_photoFileSavePath_TextChanged);
             // 

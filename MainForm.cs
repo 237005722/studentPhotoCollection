@@ -57,9 +57,49 @@ namespace StudentPhotoCollection
             this.pictureBox_shootFocus.BackColor = Color.Transparent;
             this.pictureBox_shootFocus.Parent = this.videoSourcePlayer;
 
+            // 初始化模板数据
+            LoadResourceTemplate();
+
             // 初始化摄像设备
             LoadCamaraDevice();
 
+        }
+
+        // 初始化模板数据
+        private void LoadResourceTemplate()
+        {
+            try
+            {
+                //显示等待框
+                LoadingHelper.ShowLoadingForm();
+                this.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+
+                // 临时文件路径
+                String filePath = Application.StartupPath + "\\data_template.xlsx";
+                // 释放资源文件到临时文件
+                byte[] data_template = global::StudentPhotoCollection.Properties.Resources.data_template;
+                FileStream fs = new FileStream(filePath, FileMode.Create);
+                fs.Write(data_template, 0, data_template.Length);
+                fs.Close();
+
+                // 加载默认表格数据
+                LoadFileData(filePath);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("+++++++++初始化模板数据发生未知异常+++++++++");
+                Console.WriteLine(e.Message);
+                //弹框提示
+                MessageBox.Show(e.Message, "初始化模板数据未知异常");
+
+            }
+            finally
+            {
+                //关闭等待框
+                LoadingHelper.CloseLoadingForm();
+                this.Cursor = System.Windows.Forms.Cursors.Default;
+
+            }
         }
 
         // 初始化摄像设备
@@ -170,12 +210,28 @@ namespace StudentPhotoCollection
             // 如果选定了文件
             if (openFileDialog_chooseFile.ShowDialog() == DialogResult.OK)
             {
+
+                // 取得文件路径及文件名
+                string filePath = openFileDialog_chooseFile.FileName;
+                // 根据文件路径加载表格数据
+                LoadFileData(filePath);
+
+            }
+        }
+
+        #region private 加载表格数据
+        /// <summary>
+        /// 根据文件路径加载表格数据
+        /// </summary>
+        /// <param name="filePath">excel文件存放的路径</param>
+        private void LoadFileData(string filePath)
+        {
+            try
+            {
                 //显示等待框
                 LoadingHelper.ShowLoadingForm();
                 this.Cursor = System.Windows.Forms.Cursors.WaitCursor;
 
-                // 取得文件路径及文件名
-                string filePath = openFileDialog_chooseFile.FileName;
                 // 显示文件路径及文件名
                 this.textBox_sjmb.Text = filePath;
                 // 每次打开清空内容
@@ -223,14 +279,23 @@ namespace StudentPhotoCollection
 
                 // 启用导出数据按钮
                 this.button_ExportData.Enabled = true;
-
-
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("+++++++++加载表格数据发生未知异常+++++++++");
+                Console.WriteLine(e.Message);
+                //弹框提示
+                MessageBox.Show(e.Message, "加载表格数据未知异常");
+            }
+            finally
+            {
                 //关闭等待框
                 LoadingHelper.CloseLoadingForm();
                 this.Cursor = System.Windows.Forms.Cursors.Default;
 
             }
         }
+        #endregion
 
         #region private 根据excle的路径把第一个sheet中的内容放入datatable
         /// <summary>

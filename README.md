@@ -13,7 +13,10 @@
 1.  Visual Studio C#
 
 
-2.  关于无法获取密钥文件“StudentPhotoCollection_TemporaryKey.pfx”的问题：
+
+#### 调试问题
+
+关于无法获取密钥文件“StudentPhotoCollection_TemporaryKey.pfx”的问题：
 
 1.  右键项目属性;
 2.  选择签名;

@@ -67,7 +67,7 @@
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>学生照片信息采集logo.ico</ApplicationIcon>
@@ -223,6 +223,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\data_template.xlsx" />
     <None Include="StudentPhotoCollection_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
