@@ -954,6 +954,13 @@ namespace StudentPhotoCollection
         //点击预览原图-当前
         private void PictureBox_photo_Click(object sender, EventArgs e)
         {
+            if (this.pictureBox_photo.Image == null)
+            {
+
+                MessageBox.Show("无当前照片可预览", "温馨提示");
+                return;
+            }
+
             if (previewForm != null)
             {
                 previewForm.Dispose();
@@ -963,11 +970,19 @@ namespace StudentPhotoCollection
             previewForm = new PreviewForm(this.pictureBox_photo.Image, this.groupBox_photoPreview.Text);
 
             previewForm.ShowDialog();
+
         }
 
         //点击预览原图-上张
         private void PictureBoxLast_photo_Click(object sender, EventArgs e)
         {
+            if (this.pictureBox_photoLast.Image == null)
+            {
+
+                MessageBox.Show("无上张照片可预览", "温馨提示");
+                return;
+            }
+
             if (previewForm != null)
             {
                 previewForm.Dispose();
