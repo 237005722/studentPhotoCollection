@@ -1,7 +1,13 @@
 # studentPhotoCollection
 
 #### 介绍
+
 学生照片信息采集
+
+#### 最新安装包
+
+百度云链接： https://pan.baidu.com/s/1iICIfnQCkJPVxTONXJ7qsg
+提取码：xnsn
 
 #### 软件架构
 
