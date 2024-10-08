@@ -6,7 +6,7 @@
 
 #### 最新安装包
 
-百度云链接：[https://pan.xunlei.com/s/VO8ekPapoI-hLZkgxKWnAC6cA1?pwd=8thg#](https://pan.xunlei.com/s/VO8ekPapoI-hLZkgxKWnAC6cA1?pwd=8thg#)
+迅雷云链接：[https://pan.xunlei.com/s/VO8ekPapoI-hLZkgxKWnAC6cA1?pwd=8thg#](https://pan.xunlei.com/s/VO8ekPapoI-hLZkgxKWnAC6cA1?pwd=8thg#)
 提取码：8thg
 
 #### 软件架构
