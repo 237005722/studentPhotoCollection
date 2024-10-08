@@ -6,8 +6,8 @@
 
 #### 最新安装包
 
-百度云链接：https://pan.baidu.com/s/1G6BQQ4VizUhmt3sEY1bjsA?pwd=dac2
-提取码：dac2
+百度云链接：[https://pan.xunlei.com/s/VO8ekPapoI-hLZkgxKWnAC6cA1?pwd=8thg#](https://pan.xunlei.com/s/VO8ekPapoI-hLZkgxKWnAC6cA1?pwd=8thg#)
+提取码：8thg
 
 #### 软件架构
 
