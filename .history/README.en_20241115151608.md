@@ -6,8 +6,8 @@ Student photo information collection
 
 #### latest installation package
 
-Xunlei cloud link: [https://pan.xunlei.com/s/VOBihad-GmnITeSmIZfbegXeA1?pwd=58b2#](https://pan.xunlei.com/s/VOBihad-GmnITeSmIZfbegXeA1?pwd=58b2#)
-Extraction code: 58b2
+Baidu cloud link: https://pan.baidu.com/s/1G6BQQ4VizUhmt3sEY1bjsA?pwd=dac2
+Extraction code: dac2
 
 #### Software Architecture
 
