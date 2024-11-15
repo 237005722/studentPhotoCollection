@@ -6,8 +6,8 @@
 
 #### 最新安装包
 
-百度云链接： https://pan.baidu.com/s/1iICIfnQCkJPVxTONXJ7qsg
-提取码：xnsn
+迅雷云链接：[https://pan.xunlei.com/s/VO8ekPapoI-hLZkgxKWnAC6cA1?pwd=8thg#](https://pan.xunlei.com/s/VO8ekPapoI-hLZkgxKWnAC6cA1?pwd=8thg#)
+提取码：8thg
 
 #### 软件架构
 
@@ -40,5 +40,3 @@
 3.  上传Excel自定义数据模板，可选择任意工作表作为数据源;
 4.  可自定义选择照片保存路径和照片名;
 5.  每次可以检查拍照结果允许重新拍照，可预览照片，采集完成后可导出数据到Excel。
-
-6.  csdn安装包下载地址：https://download.csdn.net/download/u012663281/11756557
