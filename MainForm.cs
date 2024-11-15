@@ -71,8 +71,8 @@ namespace StudentPhotoCollection
             try
             {
                 //显示等待框
-                LoadingHelper.ShowLoadingForm();
-                this.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+                //LoadingHelper.ShowLoadingForm();
+                //this.Cursor = System.Windows.Forms.Cursors.WaitCursor;
 
                 // 临时文件路径
                 String filePath = Application.StartupPath + "\\data_template.xlsx";
@@ -96,8 +96,8 @@ namespace StudentPhotoCollection
             finally
             {
                 //关闭等待框
-                LoadingHelper.CloseLoadingForm();
-                this.Cursor = System.Windows.Forms.Cursors.Default;
+                //LoadingHelper.CloseLoadingForm();
+                //this.Cursor = System.Windows.Forms.Cursors.Default;
 
             }
         }

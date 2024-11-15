@@ -8,14 +8,15 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>StudentPhotoCollection</RootNamespace>
     <AssemblyName>学生照片信息采集</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
-    <PublishUrl>E:\work\CSharpProject\StudentPhotoCollectionSetUp\</PublishUrl>
+    <TargetFrameworkProfile />
+    <PublishUrl>E:\QingCheng\work\CSharpProject\StudentPhotoCollectionSetUp\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -29,8 +30,8 @@
     <ProductName>学生照片信息采集</ProductName>
     <PublisherName>QingCheng</PublisherName>
     <SuiteName>学生照片信息采集器</SuiteName>
-    <ApplicationRevision>18</ApplicationRevision>
-    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.1.0</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -58,7 +59,7 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>AA0CDBFCBA68EA4D11FD67D4C87224399E6C488D</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>62B6A5F9E2AD9EBB1C011474D2F2C9D6B550A262</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestKeyFile>StudentPhotoCollection_TemporaryKey.pfx</ManifestKeyFile>
@@ -236,9 +237,9 @@
     <None Include="Resources\photo.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+    <BootstrapperPackage Include=".NETFramework,Version=v4.8">
       <Visible>False</Visible>
-      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 和 x64%29</ProductName>
+      <ProductName>Microsoft .NET Framework 4.8 %28x86 和 x64%29</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
